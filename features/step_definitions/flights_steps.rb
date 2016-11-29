@@ -18,9 +18,9 @@ Then(/^the dates I searched for are highlighted in the search results$/) do
     TimeUtils.new.make_this_many_days_from_today_inclusive(TOTAL_DAYS_SELECTED).each do |day_that_has_been_selected|
       selected_full_date_div = page.search_for_li_by_date(day_that_has_been_selected)
       if(day_count == 0)
-        expect(selected_full_date_div.class_name).to eq ('carouselTodaySodaIneligible')
+        expect(selected_full_date_div.class_name).to eq (page.today_enabled)
       else
-        expect(selected_full_date_div.class_name).to eq ('carouselEnabledSodaIneligible')
+        expect(selected_full_date_div.class_name).to eq (page.enabled)
       end
       day_count += 1
     end
@@ -30,10 +30,9 @@ end
 And(/^I can't choose a departure date from the past$/) do
   time_utils = TimeUtils.new
   on_page SouthwestHome do |page|
-    all_carousels = page.search_for_all_carousel_lis
-    all_carousels.each do |date|
-        if(time_utils.determine_if_is_before_today(date.attribute_value('carouselfulldate')))
-          expect(date.class_name).to eq ('carouselDisabled')
+    page.all_dates_elements.each do |date|
+        if(time_utils.determine_if_is_before_today(page.get_full_date(date)))
+          expect(date.class_name).to eq (page.disabled)
         end
     end
   end

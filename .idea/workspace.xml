@@ -18,7 +18,7 @@
     <SUITE FILE_PATH="coverage/Random Features@Opportunities_feature.coverage" NAME="Opportunities.feature Coverage Results" MODIFIED="1479838959550" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="rcov" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" MODULE_NAME="Random Features" />
     <SUITE FILE_PATH="coverage/Random Features@Flights_feature.coverage" NAME="Flights.feature Coverage Results" MODIFIED="1479834374747" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="rcov" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" MODULE_NAME="Random Features" />
     <SUITE FILE_PATH="coverage/Random Features@opportunities_feature.coverage" NAME="opportunities.feature Coverage Results" MODIFIED="1479839445265" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="rcov" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" MODULE_NAME="Random Features" />
-    <SUITE FILE_PATH="coverage/Random Features@flights_feature__1_.coverage" NAME="flights.feature (1) Coverage Results" MODIFIED="1479856783465" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="rcov" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" MODULE_NAME="Random Features" />
+    <SUITE FILE_PATH="coverage/Random Features@flights_feature__1_.coverage" NAME="flights.feature (1) Coverage Results" MODIFIED="1480447956109" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="rcov" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" MODULE_NAME="Random Features" />
     <SUITE FILE_PATH="coverage/Random Features@flights_steps.coverage" NAME="flights_steps Coverage Results" MODIFIED="1479839054816" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="rcov" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/step-definitions" MODULE_NAME="Random Features" />
   </component>
   <component name="CreatePatchCommitExecutor">
@@ -30,21 +30,41 @@
   </component>
   <component name="FileEditorManager">
     <leaf>
-      <file leaf-file-name="opportunities.feature" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/features/opportunities.feature">
+      <file leaf-file-name="flights.feature" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/features/flights.feature">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="0">
-              <caret line="0" column="20" selection-start-line="0" selection-start-column="20" selection-end-line="0" selection-end-column="20" />
+            <state relative-caret-position="198">
+              <caret line="6" column="0" selection-start-line="6" selection-start-column="0" selection-end-line="6" selection-end-column="0" />
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="opportunities_steps.rb" pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/features/step_definitions/opportunities_steps.rb">
+      <file leaf-file-name="flights_steps.rb" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/features/step_definitions/flights_steps.rb">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="764">
-              <caret line="33" column="47" selection-start-line="33" selection-start-column="47" selection-end-line="33" selection-end-column="47" />
+            <state relative-caret-position="528">
+              <caret line="16" column="17" selection-start-line="16" selection-start-column="17" selection-end-line="16" selection-end-column="17" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="southwest_flight_home.rb" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/features/page-objects/southwest_flight_home.rb">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="397">
+              <caret line="22" column="5" selection-start-line="22" selection-start-column="5" selection-end-line="22" selection-end-column="5" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="time_utils.rb" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/features/support/time_utils.rb">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="594">
+              <caret line="18" column="3" selection-start-line="18" selection-start-column="3" selection-end-line="18" selection-end-column="3" />
               <folding />
             </state>
           </provider>
@@ -86,10 +106,10 @@
     <sorting>DEFINITION_ORDER</sorting>
   </component>
   <component name="ProjectFrameBounds">
-    <option name="x" value="-2574" />
-    <option name="y" value="306" />
-    <option name="width" value="2586" />
-    <option name="height" value="1626" />
+    <option name="x" value="-13" />
+    <option name="y" value="-13" />
+    <option name="width" value="2906" />
+    <option name="height" value="1754" />
   </component>
   <component name="ProjectLevelVcsManager" settingsEditedManually="false">
     <OptionsSetting value="true" id="Add" />
@@ -203,7 +223,7 @@
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="js-jscs-nodeInterpreter" value="C:\Program Files\nodejs\node.exe" />
   </component>
-  <component name="RunManager" selected="Cucumber.opportunities.feature (1)">
+  <component name="RunManager" selected="Cucumber.flights.feature (1)">
     <configuration default="false" name="flights_steps" type="RubyRunConfigurationType" factoryName="Ruby" temporary="true">
       <module name="Random Features" />
       <RUBY_RUN_CONFIG NAME="RUBY_ARGS" VALUE="-e $stdout.sync=true;$stderr.sync=true;load($0=ARGV.shift)" />
@@ -464,8 +484,8 @@
     </list>
     <recent_temporary>
       <list size="5">
-        <item index="0" class="java.lang.String" itemvalue="Cucumber.opportunities.feature (1)" />
-        <item index="1" class="java.lang.String" itemvalue="Cucumber.flights.feature (1)" />
+        <item index="0" class="java.lang.String" itemvalue="Cucumber.flights.feature (1)" />
+        <item index="1" class="java.lang.String" itemvalue="Cucumber.opportunities.feature (1)" />
         <item index="2" class="java.lang.String" itemvalue="Cucumber.opportunities.feature" />
         <item index="3" class="java.lang.String" itemvalue="Cucumber.flights.feature" />
         <item index="4" class="java.lang.String" itemvalue="Ruby.flights_steps" />
@@ -482,57 +502,57 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1479834113722</updated>
-      <workItem from="1479834114890" duration="19883000" />
+      <workItem from="1479834114890" duration="33550000" />
     </task>
     <servers />
   </component>
   <component name="TestHistory">
-    <history-entry file="flights_feature_(1) - 2016.11.22 at 18h 03m 23s.xml">
+    <history-entry file="flights_feature_(1) - 2016.11.29 at 13h 53m 43s.xml">
       <configuration name="flights.feature (1)" configurationId="CucumberRunConfigurationType" />
     </history-entry>
-    <history-entry file="flights_feature_(1) - 2016.11.22 at 18h 03m 47s.xml">
+    <history-entry file="flights_feature_(1) - 2016.11.29 at 13h 54m 41s.xml">
       <configuration name="flights.feature (1)" configurationId="CucumberRunConfigurationType" />
     </history-entry>
-    <history-entry file="flights_feature_(1) - 2016.11.22 at 18h 18m 44s.xml">
+    <history-entry file="flights_feature_(1) - 2016.11.29 at 14h 00m 45s.xml">
       <configuration name="flights.feature (1)" configurationId="CucumberRunConfigurationType" />
     </history-entry>
-    <history-entry file="flights_feature_(1) - 2016.11.22 at 18h 19m 11s.xml">
+    <history-entry file="flights_feature_(1) - 2016.11.29 at 14h 09m 28s.xml">
       <configuration name="flights.feature (1)" configurationId="CucumberRunConfigurationType" />
     </history-entry>
-    <history-entry file="flights_feature_(1) - 2016.11.22 at 18h 19m 40s.xml">
+    <history-entry file="flights_feature_(1) - 2016.11.29 at 14h 10m 00s.xml">
       <configuration name="flights.feature (1)" configurationId="CucumberRunConfigurationType" />
     </history-entry>
-    <history-entry file="flights_feature_(1) - 2016.11.22 at 18h 20m 00s.xml">
+    <history-entry file="flights_feature_(1) - 2016.11.29 at 14h 20m 53s.xml">
       <configuration name="flights.feature (1)" configurationId="CucumberRunConfigurationType" />
     </history-entry>
-    <history-entry file="opportunities_feature_(1) - 2016.11.22 at 18h 04m 10s.xml">
-      <configuration name="opportunities.feature (1)" configurationId="CucumberRunConfigurationType" />
+    <history-entry file="flights_feature_(1) - 2016.11.29 at 14h 21m 22s.xml">
+      <configuration name="flights.feature (1)" configurationId="CucumberRunConfigurationType" />
     </history-entry>
-    <history-entry file="opportunities_feature_(1) - 2016.11.22 at 18h 20m 35s.xml">
-      <configuration name="opportunities.feature (1)" configurationId="CucumberRunConfigurationType" />
+    <history-entry file="flights_feature_(1) - 2016.11.29 at 14h 22m 54s.xml">
+      <configuration name="flights.feature (1)" configurationId="CucumberRunConfigurationType" />
     </history-entry>
-    <history-entry file="opportunities_feature_(1) - 2016.11.22 at 18h 20m 56s.xml">
-      <configuration name="opportunities.feature (1)" configurationId="CucumberRunConfigurationType" />
+    <history-entry file="flights_feature_(1) - 2016.11.29 at 14h 31m 33s.xml">
+      <configuration name="flights.feature (1)" configurationId="CucumberRunConfigurationType" />
     </history-entry>
-    <history-entry file="opportunities_feature_(1) - 2016.11.22 at 18h 21m 16s.xml">
-      <configuration name="opportunities.feature (1)" configurationId="CucumberRunConfigurationType" />
+    <history-entry file="flights_feature_(1) - 2016.11.29 at 14h 32m 50s.xml">
+      <configuration name="flights.feature (1)" configurationId="CucumberRunConfigurationType" />
     </history-entry>
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="19883000" />
+    <option name="totallyTimeSpent" value="33550000" />
   </component>
   <component name="ToolWindowManager">
-    <frame x="-2574" y="306" width="2586" height="1626" extended-state="6" />
+    <frame x="-13" y="-13" width="2906" height="1754" extended-state="6" />
     <editor active="true" />
     <layout>
-      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.28236246" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="-1" side_tool="true" content_ui="tabs" />
       <window_info id="Inspection Results" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32991952" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
       <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
       <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.3297659" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
-      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.36064374" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.3297659" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32991952" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
       <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="-1" side_tool="true" content_ui="tabs" />
@@ -787,34 +807,10 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/features/support/time_utils.rb">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="462">
-          <caret line="14" column="34" selection-start-line="14" selection-start-column="34" selection-end-line="14" selection-end-column="34" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/features/page-objects/southwest_flight_home.rb">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="627">
-          <caret line="19" column="0" selection-start-line="19" selection-start-column="0" selection-end-line="19" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/features/step_definitions/flights_steps.rb">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="472">
-          <caret line="35" column="58" selection-start-line="35" selection-start-column="58" selection-end-line="35" selection-end-column="58" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/features/flights.feature">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="21" selection-start-line="0" selection-start-column="21" selection-end-line="0" selection-end-column="21" />
+        <state relative-caret-position="198">
+          <caret line="6" column="0" selection-start-line="6" selection-start-column="0" selection-end-line="6" selection-end-column="0" />
           <folding />
         </state>
       </provider>
@@ -829,8 +825,32 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/features/step_definitions/opportunities_steps.rb">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="764">
-          <caret line="33" column="47" selection-start-line="33" selection-start-column="47" selection-end-line="33" selection-end-column="47" />
+        <state relative-caret-position="1019">
+          <caret line="32" column="48" selection-start-line="32" selection-start-column="48" selection-end-line="32" selection-end-column="48" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/features/step_definitions/flights_steps.rb">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="528">
+          <caret line="16" column="17" selection-start-line="16" selection-start-column="17" selection-end-line="16" selection-end-column="17" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/features/support/time_utils.rb">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="594">
+          <caret line="18" column="3" selection-start-line="18" selection-start-column="3" selection-end-line="18" selection-end-column="3" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/features/page-objects/southwest_flight_home.rb">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="397">
+          <caret line="22" column="5" selection-start-line="22" selection-start-column="5" selection-end-line="22" selection-end-column="5" />
           <folding />
         </state>
       </provider>

@@ -5,11 +5,12 @@ class SouthwestHome
   include PageObject
   page_url 'www.southwest.com'
 
-  attr_accessor :full_date,'carouselfulldate'
-  attr_accessor :disabled,'carouselDisabled'
-  attr_accessor :today_enabled,'carouselTodaySodaIneligible'
-  attr_accessor :enabled,'carouselEnabledSodaIneligible'
+  DISABLED = 'carouselDisabled'
+  TODAY_ENABLED = 'carouselTodaySodaIneligible'
+  ENABLED = 'carouselEnabledSodaIneligible'
+  IS_TODAY = 0
 
+  attr_accessor = :full_date,'carouselfulldate'
 
   text_field(:departure_location, :id => 'air-city-departure')
   text_field(:arrival_location, :id => 'air-city-arrival')
@@ -22,13 +23,21 @@ class SouthwestHome
     self.submit_button
   end
 
-  def search_for_li_by_date(date_string)
-    @browser.li(:css, "li[carouselfulldate='#{date_string.strftime("%Y/%m/%d")}']")
+  def search_for_li_by_date(list_date)
+    @browser.li(:css, "li[carouselfulldate='#{list_date.strftime("%Y/%m/%d")}']")
   end
 
   def get_full_date(date_element)
-    date_element.attribute_value(full_date)
+    date_element.attribute(FULL_DATE_ATTR)
   end
 
+  def find_if_day_is_enabled(date_string)
+    selected_full_date_div = search_for_li_by_date(date_string)
+    class_name_of_div = selected_full_date_div.class_name
+    class_name_of_div == TODAY_ENABLED or class_name_of_div == ENABLED
+  end
+  def check_if_date_is_disabled(date)
+    date.class_name == DISABLED
+  end
 
 end

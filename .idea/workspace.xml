@@ -18,7 +18,7 @@
     <SUITE FILE_PATH="coverage/Random Features@Opportunities_feature.coverage" NAME="Opportunities.feature Coverage Results" MODIFIED="1479838959550" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="rcov" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" MODULE_NAME="Random Features" />
     <SUITE FILE_PATH="coverage/Random Features@Flights_feature.coverage" NAME="Flights.feature Coverage Results" MODIFIED="1479834374747" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="rcov" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" MODULE_NAME="Random Features" />
     <SUITE FILE_PATH="coverage/Random Features@opportunities_feature.coverage" NAME="opportunities.feature Coverage Results" MODIFIED="1479839445265" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="rcov" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" MODULE_NAME="Random Features" />
-    <SUITE FILE_PATH="coverage/Random Features@flights_feature__1_.coverage" NAME="flights.feature (1) Coverage Results" MODIFIED="1480447956109" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="rcov" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" MODULE_NAME="Random Features" />
+    <SUITE FILE_PATH="coverage/Random Features@flights_feature__1_.coverage" NAME="flights.feature (1) Coverage Results" MODIFIED="1480454021765" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="rcov" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" MODULE_NAME="Random Features" />
     <SUITE FILE_PATH="coverage/Random Features@flights_steps.coverage" NAME="flights_steps Coverage Results" MODIFIED="1479839054816" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="rcov" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/step-definitions" MODULE_NAME="Random Features" />
   </component>
   <component name="CreatePatchCommitExecutor">
@@ -30,41 +30,51 @@
   </component>
   <component name="FileEditorManager">
     <leaf>
+      <file leaf-file-name="opportunities.feature" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/features/opportunities.feature">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="297">
+              <caret line="9" column="0" selection-start-line="9" selection-start-column="0" selection-end-line="9" selection-end-column="0" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="opportunities_steps.rb" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/features/step_definitions/opportunities_steps.rb">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="397">
+              <caret line="25" column="3" selection-start-line="25" selection-start-column="3" selection-end-line="25" selection-end-column="3" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="flights_steps.rb" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/features/step_definitions/flights_steps.rb">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="27">
+              <caret line="6" column="23" selection-start-line="6" selection-start-column="23" selection-end-line="6" selection-end-column="23" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="southwest_flight_home.rb" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/features/page-objects/southwest_flight_home.rb">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="-164">
+              <caret line="14" column="61" selection-start-line="14" selection-start-column="61" selection-end-line="14" selection-end-column="61" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
       <file leaf-file-name="flights.feature" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/features/flights.feature">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="198">
               <caret line="6" column="0" selection-start-line="6" selection-start-column="0" selection-end-line="6" selection-end-column="0" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="flights_steps.rb" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/features/step_definitions/flights_steps.rb">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="528">
-              <caret line="16" column="17" selection-start-line="16" selection-start-column="17" selection-end-line="16" selection-end-column="17" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="southwest_flight_home.rb" pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/features/page-objects/southwest_flight_home.rb">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="397">
-              <caret line="22" column="5" selection-start-line="22" selection-start-column="5" selection-end-line="22" selection-end-column="5" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="time_utils.rb" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/features/support/time_utils.rb">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="594">
-              <caret line="18" column="3" selection-start-line="18" selection-start-column="3" selection-end-line="18" selection-end-column="3" />
               <folding />
             </state>
           </provider>
@@ -93,9 +103,9 @@
         <option value="$PROJECT_DIR$/features/support/hooks.rb" />
         <option value="$PROJECT_DIR$/features/page-objects/manifest_opportunities.rb" />
         <option value="$PROJECT_DIR$/features/support/time_utils.rb" />
+        <option value="$PROJECT_DIR$/features/step_definitions/opportunities_steps.rb" />
         <option value="$PROJECT_DIR$/features/page-objects/southwest_flight_home.rb" />
         <option value="$PROJECT_DIR$/features/step_definitions/flights_steps.rb" />
-        <option value="$PROJECT_DIR$/features/step_definitions/opportunities_steps.rb" />
       </list>
     </option>
   </component>
@@ -502,44 +512,44 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1479834113722</updated>
-      <workItem from="1479834114890" duration="33550000" />
+      <workItem from="1479834114890" duration="40077000" />
     </task>
     <servers />
   </component>
   <component name="TestHistory">
-    <history-entry file="flights_feature_(1) - 2016.11.29 at 13h 53m 43s.xml">
+    <history-entry file="flights_feature_(1) - 2016.11.29 at 15h 39m 51s.xml">
       <configuration name="flights.feature (1)" configurationId="CucumberRunConfigurationType" />
     </history-entry>
-    <history-entry file="flights_feature_(1) - 2016.11.29 at 13h 54m 41s.xml">
+    <history-entry file="flights_feature_(1) - 2016.11.29 at 16h 01m 53s.xml">
       <configuration name="flights.feature (1)" configurationId="CucumberRunConfigurationType" />
     </history-entry>
-    <history-entry file="flights_feature_(1) - 2016.11.29 at 14h 00m 45s.xml">
+    <history-entry file="flights_feature_(1) - 2016.11.29 at 16h 02m 15s.xml">
       <configuration name="flights.feature (1)" configurationId="CucumberRunConfigurationType" />
     </history-entry>
-    <history-entry file="flights_feature_(1) - 2016.11.29 at 14h 09m 28s.xml">
+    <history-entry file="flights_feature_(1) - 2016.11.29 at 16h 02m 51s.xml">
       <configuration name="flights.feature (1)" configurationId="CucumberRunConfigurationType" />
     </history-entry>
-    <history-entry file="flights_feature_(1) - 2016.11.29 at 14h 10m 00s.xml">
+    <history-entry file="flights_feature_(1) - 2016.11.29 at 16h 03m 19s.xml">
       <configuration name="flights.feature (1)" configurationId="CucumberRunConfigurationType" />
     </history-entry>
-    <history-entry file="flights_feature_(1) - 2016.11.29 at 14h 20m 53s.xml">
+    <history-entry file="flights_feature_(1) - 2016.11.29 at 16h 03m 54s.xml">
       <configuration name="flights.feature (1)" configurationId="CucumberRunConfigurationType" />
     </history-entry>
-    <history-entry file="flights_feature_(1) - 2016.11.29 at 14h 21m 22s.xml">
+    <history-entry file="flights_feature_(1) - 2016.11.29 at 16h 10m 24s.xml">
       <configuration name="flights.feature (1)" configurationId="CucumberRunConfigurationType" />
     </history-entry>
-    <history-entry file="flights_feature_(1) - 2016.11.29 at 14h 22m 54s.xml">
+    <history-entry file="flights_feature_(1) - 2016.11.29 at 16h 12m 17s.xml">
       <configuration name="flights.feature (1)" configurationId="CucumberRunConfigurationType" />
     </history-entry>
-    <history-entry file="flights_feature_(1) - 2016.11.29 at 14h 31m 33s.xml">
+    <history-entry file="flights_feature_(1) - 2016.11.29 at 16h 12m 46s.xml">
       <configuration name="flights.feature (1)" configurationId="CucumberRunConfigurationType" />
     </history-entry>
-    <history-entry file="flights_feature_(1) - 2016.11.29 at 14h 32m 50s.xml">
+    <history-entry file="flights_feature_(1) - 2016.11.29 at 16h 13m 57s.xml">
       <configuration name="flights.feature (1)" configurationId="CucumberRunConfigurationType" />
     </history-entry>
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="33550000" />
+    <option name="totallyTimeSpent" value="40077000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-13" y="-13" width="2906" height="1754" extended-state="6" />
@@ -556,7 +566,7 @@
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32991952" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
       <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="-1" side_tool="true" content_ui="tabs" />
-      <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.39941478" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.3993311" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
       <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="combo" />
       <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
@@ -578,7 +588,7 @@
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
-      <option name="time" value="14" />
+      <option name="time" value="16" />
     </breakpoint-manager>
     <watches-manager />
   </component>
@@ -807,6 +817,54 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/features/support/time_utils.rb">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="330">
+          <caret line="10" column="3" selection-start-line="10" selection-start-column="3" selection-end-line="10" selection-end-column="3" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://C:/RailsInstaller/Ruby2.2.0/lib/ruby/gems/2.2.0/gems/rspec-expectations-3.5.0/lib/rspec/expectations/expectation_target.rb">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="317">
+          <caret line="64" column="0" selection-start-line="64" selection-start-column="0" selection-end-line="64" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://C:/RailsInstaller/Ruby2.2.0/lib/ruby/gems/2.2.0/gems/rspec-expectations-3.5.0/lib/rspec/matchers.rb">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="284">
+          <caret line="356" column="0" selection-start-line="356" selection-start-column="0" selection-end-line="356" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://C:/RailsInstaller/Ruby2.2.0/lib/ruby/gems/2.2.0/gems/rspec-expectations-3.5.0/lib/rspec/expectations/syntax.rb">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="284">
+          <caret line="72" column="0" selection-start-line="72" selection-start-column="0" selection-end-line="72" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/features/opportunities.feature">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="297">
+          <caret line="9" column="0" selection-start-line="9" selection-start-column="0" selection-end-line="9" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/features/page-objects/southwest_flight_home.rb">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-164">
+          <caret line="14" column="61" selection-start-line="14" selection-start-column="61" selection-end-line="14" selection-end-column="61" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/features/flights.feature">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="198">
@@ -815,42 +873,18 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/features/opportunities.feature">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="20" selection-start-line="0" selection-start-column="20" selection-end-line="0" selection-end-column="20" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/features/step_definitions/opportunities_steps.rb">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1019">
-          <caret line="32" column="48" selection-start-line="32" selection-start-column="48" selection-end-line="32" selection-end-column="48" />
+        <state relative-caret-position="397">
+          <caret line="25" column="3" selection-start-line="25" selection-start-column="3" selection-end-line="25" selection-end-column="3" />
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/features/step_definitions/flights_steps.rb">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="528">
-          <caret line="16" column="17" selection-start-line="16" selection-start-column="17" selection-end-line="16" selection-end-column="17" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/features/support/time_utils.rb">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="594">
-          <caret line="18" column="3" selection-start-line="18" selection-start-column="3" selection-end-line="18" selection-end-column="3" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/features/page-objects/southwest_flight_home.rb">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="397">
-          <caret line="22" column="5" selection-start-line="22" selection-start-column="5" selection-end-line="22" selection-end-column="5" />
+        <state relative-caret-position="27">
+          <caret line="6" column="23" selection-start-line="6" selection-start-column="23" selection-end-line="6" selection-end-column="23" />
           <folding />
         </state>
       </provider>

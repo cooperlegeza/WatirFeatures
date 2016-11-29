@@ -14,15 +14,8 @@ end
 
 Then(/^the dates I searched for are highlighted in the search results$/) do
   on_page SouthwestHome do |page|
-    day_count = 0
     TimeUtils.new.make_this_many_days_from_today_inclusive(TOTAL_DAYS_SELECTED).each do |day_that_has_been_selected|
-      selected_full_date_div = page.search_for_li_by_date(day_that_has_been_selected)
-      if(day_count == 0)
-        expect(selected_full_date_div.class_name).to eq (page.today_enabled)
-      else
-        expect(selected_full_date_div.class_name).to eq (page.enabled)
-      end
-      day_count += 1
+      expect(page.find_if_day_is_enabled(day_that_has_been_selected, day_count)).to be true
     end
   end
 end
@@ -32,7 +25,7 @@ And(/^I can't choose a departure date from the past$/) do
   on_page SouthwestHome do |page|
     page.all_dates_elements.each do |date|
         if(time_utils.determine_if_is_before_today(page.get_full_date(date)))
-          expect(date.class_name).to eq (page.disabled)
+          expect(page.check_if_date_is_disabled(date)).to eq (true)
         end
     end
   end
